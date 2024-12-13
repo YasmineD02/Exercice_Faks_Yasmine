@@ -26,6 +26,7 @@ player1(nom1, age1, score 1) est éliminé par player2(nom2, age2, score 2 ) ssi
 
 ## Performance : 
 Implémentation 1 : Complexité temporel **o(n^2)** ce qui est acceptable pour les listes de petites tailles, mais peut devenir lente pour les listes de plus grandes tailles. 
+
 Implémentation 2 : Complexité temporel **o(n log (n) )** ce qui offre une meilleure performance pour les grandes listes. 
 
 
