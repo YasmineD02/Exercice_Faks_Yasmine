@@ -34,13 +34,21 @@ Implémentation 2 : Complexité temporel **o(n log (n) )** ce qui offre une meil
 
 ## Test : 
 Les cas traités : 
+
     -Liste vide 
+    
     -Liste avec un seul joueur 
+    
     -Liste avec des joueurs ayant le même score 
+    
     -Liste avec des joueurs ayant le même âge 
+    
     -Liste avec deux joueurs, l'un domine l’autre 
+    
     -Liste avec deux joueurs aucun ne domine l’autre 
+    
     -Liste avec plusieurs joueurs ayant les mêmes caractéristiques 
+    
     -Liste avec plusieurs joueurs
 
 
