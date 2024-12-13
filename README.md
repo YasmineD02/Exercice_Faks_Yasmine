@@ -11,11 +11,13 @@ player est champion ssi player n’est éliminé par aucun autre joueur
 —---------------------------------------------------------------------------------------------------------------
 
 player1(nom1, age1, score 1) n’est pas éliminé par player2(nom2, age2, score 2 ) ssi 
+
 not ( score2 > score1 and age2 <= age 1) and not ( age2 < age1 and score2 >= score1)
 
 c.a.d 
 
 player1(nom1, age1, score 1) est éliminé par player2(nom2, age2, score 2 ) ssi 
+
 ( score2 > score1 and age2 <= age 1)  or ( age2 < age1 and score2 >= score1)
 
 
