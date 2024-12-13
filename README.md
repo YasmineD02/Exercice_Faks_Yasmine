@@ -45,5 +45,7 @@ Les cas traités :
 
 ## Instructions d'exécution
 1- Installer Python.
+
 2- Clonez ce repository sur votre machine locale.
+
 3- Exécuter le fichier `champions.py`
