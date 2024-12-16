@@ -4,13 +4,13 @@
 Cet exercice consiste à créer une fonction permettant d'extraire les "champions" d'une liste de joueurs d'échecs, où un joueur est considéré comme un champion si personne ne l'élimine, selon des critères d'âge et de score.
 
 
-## Fichiers du projet :
+## Fichiers du projet
 `champions.py` : Contient la fonction `find_champions`.
 `test.py` : Contient les tests unitaires pour vérifier le comportement de `find_champions`.
 
 
-## Test : 
-Les cas traités : 
+## Test
+-Les cas traités : 
     -Liste vide 
     -Liste avec un seul joueur 
     -Liste avec des joueurs ayant le même score 
@@ -20,10 +20,9 @@ Les cas traités :
     -Liste avec plusieurs joueurs ayant les mêmes caractéristiques 
     -Liste avec plusieurs joueurs
 
-# Exécution des tests
-Pour exécuter tous les tests : `python3 test.py`
+-Pour exécuter tous les tests : `python3 test.py`
 
-Pour exécuter un test spécifique : `python3 -m unittest test.TestFindChampions.<nom_de_la_fonction_test>`
+-Pour exécuter un test spécifique : `python3 -m unittest test.TestFindChampions.<nom_de_la_fonction_test>`
 
 
 ## Autre : Logique/Raisonnement 
