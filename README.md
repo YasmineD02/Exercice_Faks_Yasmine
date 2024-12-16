@@ -6,18 +6,27 @@ Cet exercice consiste à créer une fonction permettant d'extraire les "champion
 
 ## Fichiers du projet
 `champions.py` : Contient la fonction `find_champions`.
+
 `test.py` : Contient les tests unitaires pour vérifier le comportement de `find_champions`.
 
 
 ## Test
 -Les cas traités : 
+
     -Liste vide 
-    -Liste avec un seul joueur 
+    
+    -Liste avec un seul joueur
+    
     -Liste avec des joueurs ayant le même score 
+    
     -Liste avec des joueurs ayant le même âge 
+    
     -Liste avec deux joueurs, l'un domine l’autre 
+    
     -Liste avec deux joueurs aucun ne domine l’autre 
+    
     -Liste avec plusieurs joueurs ayant les mêmes caractéristiques 
+    
     -Liste avec plusieurs joueurs
 
 -Pour exécuter tous les tests : `python3 test.py`
